@@ -1,0 +1,34 @@
+[17-Feb-2017 04:17:22 America/Chicago] PHP Warning:  require(PHPMailer/class.PHPMailer.php): failed to open stream: No such file or directory in /home1/alphaelite/public_html/email.php on line 2
+[17-Feb-2017 04:17:22 America/Chicago] PHP Warning:  require(PHPMailer/class.PHPMailer.php): failed to open stream: No such file or directory in /home1/alphaelite/public_html/email.php on line 2
+[17-Feb-2017 04:17:22 America/Chicago] PHP Fatal error:  require(): Failed opening required 'PHPMailer/class.PHPMailer.php' (include_path='.:/opt/php56/lib/php') in /home1/alphaelite/public_html/email.php on line 2
+[17-Feb-2017 04:18:35 America/Chicago] PHP Warning:  require(/home1/alphaelite/public_html/PHPMailer/class.PHPMailer.php): failed to open stream: No such file or directory in /home1/alphaelite/public_html/email.php on line 2
+[17-Feb-2017 04:18:35 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home1/alphaelite/public_html/PHPMailer/class.PHPMailer.php' (include_path='.:/opt/php56/lib/php') in /home1/alphaelite/public_html/email.php on line 2
+[17-Feb-2017 04:19:41 America/Chicago] PHP Warning:  require(/home1/alphaelite/public_html/PHPMailer/class.PHPMailer.php): failed to open stream: No such file or directory in /home1/alphaelite/public_html/email.php on line 2
+[17-Feb-2017 04:19:41 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home1/alphaelite/public_html/PHPMailer/class.PHPMailer.php' (include_path='.:/opt/php56/lib/php') in /home1/alphaelite/public_html/email.php on line 2
+[17-Feb-2017 04:20:28 America/Chicago] PHP Warning:  require(public_html/PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in /home1/alphaelite/public_html/email.php on line 2
+[17-Feb-2017 04:20:28 America/Chicago] PHP Warning:  require(public_html/PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in /home1/alphaelite/public_html/email.php on line 2
+[17-Feb-2017 04:20:28 America/Chicago] PHP Fatal error:  require(): Failed opening required 'public_html/PHPMailer/class.phpmailer.php' (include_path='.:/opt/php56/lib/php') in /home1/alphaelite/public_html/email.php on line 2
+[17-Feb-2017 04:21:07 America/Chicago] PHP Warning:  require(home1/alphaelite/public_html/public_html/PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in /home1/alphaelite/public_html/email.php on line 2
+[17-Feb-2017 04:21:07 America/Chicago] PHP Warning:  require(home1/alphaelite/public_html/public_html/PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in /home1/alphaelite/public_html/email.php on line 2
+[17-Feb-2017 04:21:07 America/Chicago] PHP Fatal error:  require(): Failed opening required 'home1/alphaelite/public_html/public_html/PHPMailer/class.phpmailer.php' (include_path='.:/opt/php56/lib/php') in /home1/alphaelite/public_html/email.php on line 2
+[17-Feb-2017 04:47:21 America/Chicago] PHP Warning:  require(class.PHPMailer.php): failed to open stream: No such file or directory in /home1/alphaelite/public_html/email.php on line 2
+[17-Feb-2017 04:47:21 America/Chicago] PHP Warning:  require(class.PHPMailer.php): failed to open stream: No such file or directory in /home1/alphaelite/public_html/email.php on line 2
+[17-Feb-2017 04:47:21 America/Chicago] PHP Fatal error:  require(): Failed opening required 'class.PHPMailer.php' (include_path='.:/opt/php56/lib/php') in /home1/alphaelite/public_html/email.php on line 2
+[17-Feb-2017 04:48:52 America/Chicago] PHP Warning:  require(class.PHPMailer.php): failed to open stream: No such file or directory in /home1/alphaelite/public_html/email.php on line 2
+[17-Feb-2017 04:48:52 America/Chicago] PHP Warning:  require(class.PHPMailer.php): failed to open stream: No such file or directory in /home1/alphaelite/public_html/email.php on line 2
+[17-Feb-2017 04:48:52 America/Chicago] PHP Fatal error:  require(): Failed opening required 'class.PHPMailer.php' (include_path='.:/opt/php56/lib/php') in /home1/alphaelite/public_html/email.php on line 2
+[17-Feb-2017 04:49:23 America/Chicago] PHP Warning:  require(class.PHPMailer.php): failed to open stream: No such file or directory in /home1/alphaelite/public_html/email.php on line 2
+[17-Feb-2017 04:49:23 America/Chicago] PHP Warning:  require(class.PHPMailer.php): failed to open stream: No such file or directory in /home1/alphaelite/public_html/email.php on line 2
+[17-Feb-2017 04:49:23 America/Chicago] PHP Fatal error:  require(): Failed opening required 'class.PHPMailer.php' (include_path='.:/opt/php56/lib/php') in /home1/alphaelite/public_html/email.php on line 2
+[20-Feb-2017 22:02:51 America/Chicago] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home1/alphaelite/public_html/email.php on line 28
+[04-Apr-2017 00:51:03 America/Chicago] PHP Parse error:  syntax error, unexpected '$subject' (T_VARIABLE) in /home1/alphaelite/public_html/survey.php on line 12
+[04-Apr-2017 00:51:56 America/Chicago] PHP Parse error:  syntax error, unexpected '$bestcontact' (T_VARIABLE) in /home1/alphaelite/public_html/survey.php on line 12
+[04-Apr-2017 00:53:03 America/Chicago] PHP Parse error:  syntax error, unexpected '$subject' (T_VARIABLE) in /home1/alphaelite/public_html/survey.php on line 12
+[04-Apr-2017 01:05:52 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home1/alphaelite/public_html/survey.php on line 47
+[04-Apr-2017 01:07:29 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home1/alphaelite/public_html/survey.php on line 47
+[04-Apr-2017 05:34:53 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[04-Apr-2017 05:37:18 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[04-Apr-2017 06:06:15 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home1/alphaelite/public_html/email.php on line 4
+[04-Apr-2017 06:08:45 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home1/alphaelite/public_html/email.php on line 4
+[04-Apr-2017 06:10:01 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home1/alphaelite/public_html/email.php on line 4
+[04-Apr-2017 06:10:35 America/Chicago] PHP Parse error:  syntax error, unexpected 'true' (T_STRING) in /home1/alphaelite/public_html/email.php on line 4

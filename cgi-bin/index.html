@@ -1,0 +1,339 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>AlphaEliteFitness NYC</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!---- start-smoth-scrolling---->
+ <!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+</script>
+<!----webfonts---->
+<link href='http://fonts.googleapis.com/css?family=Oswald:300,400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<!----//webfonts---->
+<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+<!----//End-top-nav-script---->
+</head>
+<body>
+
+		<!-----start-container---->
+			<!----- start-header---->
+			<div id="home" class="header">
+				<div class="container">
+					<div class="logo">
+						<a href="#"><img src="images/logo.png" title="logo" style="max-height: 30px;" /></a>
+					</div>
+					<!----start-top-nav---->
+					 <nav class="top-nav">
+						<ul class="top-nav">
+							<li class="active"><a href="#home" class="scroll">Home</a></li>
+							<li class="page-scroll"><a href="#features" class="scroll">About</a></li>
+							<li class="page-scroll"><a href="trainers.html">Trainers</a></li>
+							<li class="page-scroll"><a href="services.html">Services</a></li>
+						
+						</ul>
+						<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+					</nav>
+					<div class="clearfix"> </div>
+					
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<!----start-slider-script---->
+			<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<!----//End-slider-script---->
+			<!-- Slideshow 4 -->
+			    <div  id="top" class="callbacks_container">
+			      <ul class="rslides" id="slider4">
+			        <li>
+			          <img src="images/slide-1-26x13.jpg" style="background-size:contain;" alt="">
+			          <div class="caption">
+			          	<div class="slide-text-info">
+			   				
+			          		<label>Is your body where you want it to be right now? </label>
+			          	</div>
+			          </div>
+			        </li>
+			        <li>
+			          <img src="images/slide-2-26x13.jpg" style= "background-size:cover;"  alt="">
+			          <div class="caption">
+			          	<div class="slide-text-info">
+			          		
+			          		<label>Do you feel confident enough to protect yourself? </label>
+			          	</div>
+			          </div>
+			        </li>
+			       
+			          </div>
+			        </li>
+			      </ul>
+			    </div>
+			    <div class="clearfix"> </div>
+			<!----- //End-slider---->
+			<!-----start-fearures---->
+			<div class="features" id="features">
+				<div class="container">
+					<div class="features-head text-center">
+						<h2>Welcome to AlphaEliteFitness<span>NYC!</span></h2>
+						<p></p>
+					</div>
+					
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!-----//End-fearures---->
+			<!-----start-team---->
+			
+			<!-----start-gallery---->
+			<!-----start-gallery---->
+			<div class="gallery" id="gallery" style="background:#D3D3D3;">
+				<div class="container">
+					<div class="gallery-head text-center">
+						<h3>Our Gallery</h3><span> </span>
+						 
+					</div>
+					<div class="gallery-grids">
+					
+						<link rel="stylesheet" type="text/css" href="css/component.css" />
+						<script src="js/modernizr.custom.js"></script>
+						<script src="js/toucheffects.js"></script>
+					
+						<div class="col-md-3 gallery-grid grid cs-style-2">
+							<figure>
+								<img src="images/g1.jpg" alt="img02">
+								<figcaption>
+									<h3>yep</h3>
+									<span>yep</span>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="col-md-3 gallery-grid grid cs-style-2">
+							<figure>
+								<img src="images/g2.jpg" alt="img02">
+								<figcaption>
+									<h3>yep</h3>
+									<span>yep</span>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="col-md-3 gallery-grid grid cs-style-2">
+							<figure>
+								<img src="images/g3.jpg" alt="img02">
+								<figcaption>
+									<h3>yep</h3>
+									<span>yep</span>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="col-md-3 gallery-grid grid cs-style-2">
+							<figure>
+								<img src="images/g4.jpg" alt="img02">
+								<figcaption>
+									<h3>yep</h3>
+									<span>yep</span>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="col-md-3 gallery-grid grid cs-style-2">
+							<figure>
+								<img src="images/g5.jpg" alt="img02">
+								<figcaption>
+									<h3>yep</h3>
+									<span>yep</span>
+								</figcaption>
+							</figure>
+						</div>
+						
+						<div class="col-md-3 gallery-grid grid cs-style-2">
+							<figure>
+								<img src="images/g6.jpg" alt="img02">
+								<figcaption>
+									<h3>yep</h3>
+									<span>yep</span>
+								</figcaption>
+							</figure>
+						</div>
+						
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!-----//End-gallery---->
+			<!-----start-pricing-plans---->
+			
+			<!-----start-pricing-plans---->
+			
+	        
+	<script type="text/javascript">
+$(window).load(function() {
+	
+
+	$("#flexiselDemo3").flexisel({
+		visibleItems: 5,
+		animationSpeed: 1000,
+		autoPlay: true,
+		autoPlaySpeed: 3000,    		
+		pauseOnHover: true,
+		enableResponsiveBreakpoints: true,
+    	responsiveBreakpoints: { 
+    		portrait: { 
+    			changePoint:480,
+    			visibleItems: 1
+    		}, 
+    		landscape: { 
+    			changePoint:640,
+    			visibleItems: 2
+    		},
+    		tablet: { 
+    			changePoint:768,
+    			visibleItems: 3
+    		}
+    	}
+    });
+    
+});
+</script>
+
+</div>
+</div>
+
+<script type="text/javascript">
+
+function verify() {
+
+
+
+ if(document.getElementById("name").value=="" || document.getElementById("email").value=="" ||  document.getElementById("message").value=="") {
+    alert("Please fill in all fields");
+ } else {
+    alert("Sending Email!");
+    
+    
+    var name=$('#name').val();
+    var email=$('#email').val();
+   
+    var message=$('#message').val();
+    var  formData = "name=" + name + "&email=" + email + "&message=" +message;
+    $.ajax({
+        url : "email.php",
+        type: "POST",
+        data : formData,
+        dataType:'json',
+        success: function(data, textStatus, jqXHR)
+        {
+            //data - response from server
+            alert(data);
+        },
+
+    });
+  }
+}
+</script>
+  <div class="footer">
+  
+		</div>
+		<div class="footer-bottom" id="contact">
+		  <div class="container contact">
+      	  	 <div class="col-md-4 contact-top_left">
+			  <h3>contact info</h3>
+			 
+			  <ul class="contact_info">
+			  	
+			  	<li><i class="message"> </i><span class="msg">daniel@alphaelitefitness.nyc</span></li>
+			  		<li><i class="message"> </i><span class="msg">nick@alphaelitefitness.nyc</span></li>
+			  </ul>
+	 		 </div>
+
+
+
+
+
+      		 <div class="col-md-8 contact-top">
+			  <h3>Send us a message</h3>
+			     <form method="post" action="" name = "messagebox" id="messagebox">
+					<div class="to">
+                     	<input type="text" class="text" name="name" id="name" placeholder="Name">
+					 	<input type="text" id="email" name="email" class="text" placeholder="Email" style="margin-left:20px">
+					 	
+					</div>
+					<div class="contact_bottom-textarea">
+	                   <textarea value="Message" name="message" id="message">
+	                   </textarea>
+	                </div>
+	                <div class="form-submit1">
+			          <input type="submit" onClick="verify()" value="Submit Your Message">
+			         
+					</div>
+					<div class="clear"></div>
+                 </form>
+             </div>
+            </div>
+      	    <div class="copy">
+		      
+		    </div>
+          </div>
+        
+		</div>
+		<!----//End-footer---->
+		<!----//End-container---->  
+</body>
+</html>
+
